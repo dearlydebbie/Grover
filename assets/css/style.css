@@ -622,3 +622,108 @@ a {
 }
 /*-- End of Feature Two Section --*/
 
+/*-- CTA Section --*/
+.cta_wrapper {
+  padding: 100px 0;
+  background-color: var(--bg2);
+}
+
+.cta_img {
+  width: auto;
+  margin: 0 auto;
+}
+
+.cta_content {
+  margin: 80px 0 20px 0;
+}
+
+.cta_content_title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #F54748;
+  margin: 0 0 8px 0;
+}
+
+.cta_content_title2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #2E2E2E;
+  max-width: 80%;
+  margin: 0 0 22px 0;
+}
+
+.cta_content_para {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 80%;
+  color: var(--color3);
+}
+
+.cta_content_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 60px 0 20px 0;
+}
+
+.app_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  width: 200px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--color2) !important;
+  padding: 18px 2px;
+  border: 1px solid var(--border-color);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.playstore_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  width: 200px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--color2) !important;
+  padding: 18px 2px;
+  border: 1px solid var(--border-color);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+/*-- End of CTA Section --*/
+
