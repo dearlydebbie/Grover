@@ -938,7 +938,7 @@ a {
   .hero_content_title {
     font-size: 38px;
   }
-  .hero_red_clr {
+  .hero_red {
     font-size: 38px;
   }
   .hero_content_para {
@@ -1041,7 +1041,7 @@ a {
   .feature_one_content_title2 {
     max-width: 100%;
   }
-  .feature_one_content_btn {
+  .feature_content_btn {
     margin: 0 auto;
   }
   .feature_two_content {
@@ -1051,7 +1051,7 @@ a {
   .feature_two_content_title2 {
     max-width: 100%;
   }
-  .feature_two_content_btn {
+  .feature_2_content_btn {
     margin: 0 auto;
   }
   .cta_content {
@@ -1082,3 +1082,102 @@ a {
   }
 }
 /*-- End of Ipad/Mobile Large Responsiveness --*/
+
+/*-- Mobile Responsiveness --*/
+@media only screen and (max-width: 575px) {
+  .hero_now_btn {
+    width: 100%;
+    font-size: 12px;
+    padding: 20px 12px;
+  }
+  .hero_process_btn {
+    width: 100%;
+    font-size: 12px;
+  }
+  .play_img {
+    width: 60px;
+  }
+  .cta_content_btn {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .hero_content_top_title {
+    font-size: 14px;
+  }
+  .hero_content_title {
+    font-size: 30px;
+  }
+  .hero_red {
+    font-size: 30px;
+  }
+  .hero_content_para {
+    font-size: 14px;
+  }
+  .hero_now_btn {
+    padding: 14px 10px;
+  }
+  .play_img {
+    width: 50px;
+  }
+  .services_heading_title {
+    font-size: 14px;
+  }
+  .services_heading_title2 {
+    font-size: 24px;
+  }
+  .feature_one_content_title {
+    font-size: 14px;
+  }
+  .feature_one_content_title2 {
+    font-size: 24px;
+  }
+  .feature_one_content_para {
+    font-size: 14px;
+  }
+  .feature_two_content_title {
+    font-size: 14px;
+  }
+  .feature_two_content_title2 {
+    font-size: 24px;
+  }
+  .feature_two_content_para {
+    font-size: 14px;
+  }
+  .cta_content_title {
+    font-size: 14px;
+  }
+  .cta_content_title2 {
+    font-size: 24px;
+  }
+  .cta_content_para {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .app_btn {
+    font-size: 14px;
+    padding: 12px 2px;
+    width: 160px;
+  }
+  .playstore_btn {
+    font-size: 14px;
+    padding: 12px 2px;
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero_btn {
+    height: 100%;
+  }
+  .hero_process_btn {
+    height: 100%;
+  }
+  .play_img {
+    width: 40px;
+  }
+}
+/*-- End of Mobile Responsiveness */
