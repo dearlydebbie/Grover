@@ -1013,3 +1013,72 @@ a {
   }
 }
 /*-- End of Ipad Pro Responsiveness --*/
+
+/*-- Ipad/Mobile Large Responsiveness --*/
+@media only screen and (max-width: 767px) {
+  .hero_content {
+    text-align: center;
+  }
+  .hero_content_top_txt {
+    margin: 0 auto 20px auto;
+  }
+  .services_wrapper {
+    padding: 50px 0;
+  }
+  .hero_wrap {
+    padding: 60px 0 10px 0;
+  }
+  .services_content {
+      margin: 10px 0;
+  }
+  .services_content_bg {
+    width: 96%;
+  }
+  ._feature_one_content {
+    margin: 80px 0 20px 0;
+    text-align: center;
+  }
+  .feature_one_content_title2 {
+    max-width: 100%;
+  }
+  .feature_one_content_btn {
+    margin: 0 auto;
+  }
+  .feature_two_content {
+    margin: 80px 0 20px 0;
+    text-align: center;
+  }
+  .feature_two_content_title2 {
+    max-width: 100%;
+  }
+  .feature_two_content_btn {
+    margin: 0 auto;
+  }
+  .cta_content {
+    text-align: center;
+  }
+  .cta_content_title2 {
+    max-width: 100%;
+  }
+  .cta_content_para {
+    max-width: 100%;
+  }
+  .cta_wrapper {
+    padding: 50px 0;
+  }
+  .footer_wrapper {
+    padding: 20px 0 0 0;
+  }
+  .footer_bottom {
+    text-align: center;
+  }
+  .footer_condition {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .footer_divider {
+    margin: 10px 0 30px 0;
+  }
+}
+/*-- End of Ipad/Mobile Large Responsiveness --*/
