@@ -842,3 +842,94 @@ a {
   color: var(--color) !important;
 }
 /*-- End of Footer Section ---*/
+
+/*-- Desktop/Laptop Responsiveness --*/
+@media only screen and (max-width: 1500px) {}
+@media (max-width: 1399px) {
+  .hero_content_title {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  ._hero_red {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .services_heading_title2 {
+    font-size: 32px;
+    line-height: 44px;
+    max-width: 100%;
+  }
+  .services_heading_title {
+    font-size: 16px;
+  }
+  .services_content_bg {
+    width: 252px;
+    height: 100%;
+  }
+  .services_content {
+    margin: 10px;
+    padding: 40px 26px;
+  }
+  .services_content_para {
+    max-width: 100%;
+  }
+  .feature_one_content_title {
+    font-size: 16px;
+  }
+  .feature_one_content_title2 {
+    font-size: 32px;
+    line-height: 44px;
+    max-width: 90%;
+  }
+  .feature_one_content_para {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .feature_content_btn {
+    width: 180px;
+    padding: 18px 20px;
+    font-size: 16px;
+  }
+  .feature_two_content_title {
+    font-size: 16px;
+  }
+  .feature_two_content_title2 {
+    font-size: 32px;
+    line-height: 44px;
+    max-width: 90%;
+  }
+  .feature_two_content_para {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .feature_2_content_btn {
+    width: 180px;
+    padding: 18px 20px;
+    font-size: 16px;
+  }
+  .cta_content_title {
+    font-size: 16px;
+  }
+  .cta_content_title2 {
+    font-size: 32px;
+    line-height: 44px;
+    max-width: 90%;
+  }
+  .cta_content_para {
+    font-size: 16px;
+    max-width: 90%;
+  }
+  .cta_content_btn {
+    margin: 40px 0 20px 0;
+  }
+  .app_btn {
+    font-size: 16px;
+    padding: 12px 2px;
+  }
+  .playstore_btn {
+    font-size: 16px;
+    padding: 12px 2px;
+  }
+}
+/*-- End of Desktop/Laptop Responsiveness --*/
+
