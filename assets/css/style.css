@@ -1095,6 +1095,7 @@ a {
     font-size: 12px;
   }
   .play_img {
+    margin-left: 20px;
     width: 60px;
   }
   .cta_content_btn {
@@ -1121,6 +1122,7 @@ a {
     padding: 14px 10px;
   }
   .play_img {
+    margin-left: 20px;
     width: 50px;
   }
   .services_heading_title {
@@ -1177,6 +1179,7 @@ a {
     height: 100%;
   }
   .play_img {
+    margin-left: 20px;
     width: 40px;
   }
 }
