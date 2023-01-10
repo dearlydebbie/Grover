@@ -945,11 +945,11 @@ a {
     font-size: 16px;
     max-width: 100%;
   }
-  .hero_now_btn {
+  .order_now_btn {
     width: 160px;
     font-size: 16px;
   }
-  .hero_process_btn {
+  .order_process_btn {
     width: 200px;
     font-size: 16px;
     -webkit-box-pack: space-evenly;
@@ -1085,17 +1085,16 @@ a {
 
 /*-- Mobile Responsiveness --*/
 @media only screen and (max-width: 575px) {
-  .hero_now_btn {
+  .order_now_btn {
     width: 100%;
     font-size: 12px;
     padding: 20px 12px;
   }
-  .hero_process_btn {
+  .order_process_btn {
     width: 100%;
     font-size: 12px;
   }
   .play_img {
-    margin-left: 20px;
     width: 60px;
   }
   .cta_content_btn {
@@ -1118,11 +1117,10 @@ a {
   .hero_content_para {
     font-size: 14px;
   }
-  .hero_now_btn {
+  .order_now_btn {
     padding: 14px 10px;
   }
   .play_img {
-    margin-left: 20px;
     width: 50px;
   }
   .services_heading_title {
@@ -1175,11 +1173,10 @@ a {
   .hero_btn {
     height: 100%;
   }
-  .hero_process_btn {
+  .order_process_btn {
     height: 100%;
   }
   .play_img {
-    margin-left: 20px;
     width: 40px;
   }
 }
